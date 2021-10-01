@@ -3,7 +3,7 @@ The GitHub repository accompanying the MSc Thesis at Esade written by Oliver Cas
 
 SNL_Final.ipynb: The main Jupyter Notebook which contains the main code used to load, clean, and transform the SNL data. Four initial models are evaluated and a RF is chosen to be optimized. The RF is trained to predict the RUL on the training data and optimized using the validation data. Finally, the model is tested using independent testing data from UL. The model is used for early and late-stage predictions, PDPs are plotted to judge model behaviour and a predicted RUL threshold is calculated as an example when to replace batteries before they reach their EOL.
 
-The path in the created variable mypath under the header Data Analysis in the SNL_Final.ipynb has to be adjusted to reflect where and which folder the SNL data is saved.
+Hint: The path in the created variable mypath under the header Data Analysis in the SNL_Final.ipynb has to be adjusted to reflect where and which folder the SNL data is saved.
 
 SNL_Cycle_Timeseries_Data: Folder which contains all the cycle and timeseries data of all 86 cells cycled by SNL. It is available at: https://www.batteryarchive.org/snl_study.html
 
